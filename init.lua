@@ -1,3 +1,4 @@
+minetest.register_privilege("pinv", "Allow viewing other players' inventory")
 minetest.register_chatcommand("pinv", {
   description = "View online player's inventory",
   params = "<playername>",
